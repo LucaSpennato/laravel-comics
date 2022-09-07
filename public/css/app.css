@@ -10925,3 +10925,59 @@ main .comic img {
 main button {
   text-transform: uppercase;
 }
+
+footer .foot-upper-section {
+  background-color: #0282F9;
+}
+footer .foot-upper-section span {
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+footer .foot-upper-section img {
+  height: 3rem;
+}
+footer #foot-middle-section li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.7rem;
+  text-transform: capitalize;
+}
+footer #foot-middle-section li a:hover {
+  color: #0282F9;
+}
+footer #foot-middle-section li {
+  line-height: 100%;
+}
+footer #foot-middle-section li h5, footer #foot-middle-section li .h5 {
+  color: white;
+  text-transform: uppercase;
+}
+footer #foot-middle-section li ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+footer .bg-logo {
+  background-image: url(../assets/images/dc-logo-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer .bg-footer-img {
+  background-image: url(../assets/images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer .bottom-section h5, footer .bottom-section .h5 {
+  color: #0282F9;
+  font-weight: bold;
+}
+footer .bottom-section ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #0282F9;
+}
+footer .bottom-section a {
+  padding: 0 0.5rem;
+}
