@@ -10893,17 +10893,33 @@ header ul a:hover {
   color: #0282F9;
 }
 
-.comic {
+main {
+  color: white;
+  font-size: 1.5rem;
+  background-color: #1C1C1C;
+}
+main .hero {
+  height: 25rem;
+}
+main .hero img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  width: 100%;
+  height: 100%;
+}
+main .comic {
   position: relative;
   height: 10rem;
 }
-.comic:hover .price {
+main .comic:hover .price {
   display: block;
 }
-.comic h6, .comic .h6 {
+main .comic h6, main .comic .h6 {
   text-transform: uppercase;
 }
-.comic .price {
+main .comic .price {
   position: absolute;
   top: 50%;
   left: 1rem;
@@ -10913,7 +10929,7 @@ header ul a:hover {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
 }
-.comic img {
+main .comic img {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: top;
@@ -10921,7 +10937,6 @@ header ul a:hover {
   width: 100%;
   height: 100%;
 }
-
-main h1, main .h1 {
-  color: red;
+main button {
+  text-transform: uppercase;
 }
