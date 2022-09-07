@@ -1,5 +1,54 @@
-body{
-    h1{
-        color: red;
+header {
+    img {
+      width: 4.5rem;
     }
-}
+    ul {
+      list-style: none;
+  
+      li {
+        display: inline-block;
+        position: relative;
+      }
+      a {
+        color: black;
+        // padding: 3.2rem 0;
+        // margin: 0 1rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        position: relative;
+        font-weight: 500;
+        font-size: 0.8rem;
+        line-height: 120%;
+  
+        &.active_el::after {
+          content: "\0020";
+          position: absolute;
+          width: 100%;
+          border-top: 5px solid $primaryColor;
+          text-align: center;
+          bottom: -2.5px;
+          left: 0;
+        }
+        &.active_side_el::after {
+          content: "\0020";
+          position: absolute;
+          width: 1.5rem;
+          border-top: 5px solid $primaryColor;
+          text-align: center;
+          transform: rotate(90deg);
+          bottom: 40%;
+          right: 100%;
+        }
+  
+        &.active_el, &.active_side_el {
+          color: $primaryColor;
+        }
+  
+        &:hover {
+          color: $primaryColor;
+        }
+      }
+    }
+  };
+
+  

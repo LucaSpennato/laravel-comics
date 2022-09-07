@@ -10848,6 +10848,47 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body h1, body .h1 {
-  color: red;
+header img {
+  width: 4.5rem;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  display: inline-block;
+  position: relative;
+}
+header ul a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  font-size: 0.8rem;
+  line-height: 120%;
+}
+header ul a.active_el::after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  border-top: 5px solid #0282F9;
+  text-align: center;
+  bottom: -2.5px;
+  left: 0;
+}
+header ul a.active_side_el::after {
+  content: " ";
+  position: absolute;
+  width: 1.5rem;
+  border-top: 5px solid #0282F9;
+  text-align: center;
+  transform: rotate(90deg);
+  bottom: 40%;
+  right: 100%;
+}
+header ul a.active_el, header ul a.active_side_el {
+  color: #0282F9;
+}
+header ul a:hover {
+  color: #0282F9;
 }
