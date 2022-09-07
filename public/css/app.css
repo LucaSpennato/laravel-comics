@@ -10893,6 +10893,35 @@ header ul a:hover {
   color: #0282F9;
 }
 
+.comic {
+  position: relative;
+  height: 10rem;
+}
+.comic:hover .price {
+  display: block;
+}
+.comic h6, .comic .h6 {
+  text-transform: uppercase;
+}
+.comic .price {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  font-weight: bold;
+  color: white;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+.comic img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  width: 100%;
+  height: 100%;
+}
+
 main h1, main .h1 {
   color: red;
 }
