@@ -10867,7 +10867,7 @@ header ul a {
   font-size: 0.8rem;
   line-height: 120%;
 }
-header ul a.active_el::after {
+header ul a:hover::after {
   content: " ";
   position: absolute;
   width: 100%;
@@ -10875,21 +10875,6 @@ header ul a.active_el::after {
   text-align: center;
   bottom: -2.5px;
   left: 0;
-}
-header ul a.active_side_el::after {
-  content: " ";
-  position: absolute;
-  width: 1.5rem;
-  border-top: 5px solid #0282F9;
-  text-align: center;
-  transform: rotate(90deg);
-  bottom: 40%;
-  right: 100%;
-}
-header ul a.active_el, header ul a.active_side_el {
-  color: #0282F9;
-}
-header ul a:hover {
   color: #0282F9;
 }
 
