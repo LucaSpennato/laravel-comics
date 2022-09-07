@@ -10892,3 +10892,7 @@ header ul a.active_el, header ul a.active_side_el {
 header ul a:hover {
   color: #0282F9;
 }
+
+main h1, main .h1 {
+  color: red;
+}
